@@ -203,3 +203,11 @@ Can then use this to loop through
 
 # custom domain name
 Need to put baseurl custom domain name in config file
+
+Set up jekyll
+
+In terminal
+```
+git init
+git checkout -b -gh-pages
+git status
