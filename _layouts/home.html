@@ -7,7 +7,11 @@
 {% endfor %}
 
 {% for person in site.data.people %}
-  {{ person.name }} is a {{ person.occupation }} <br>
+  {{ person.name }} is a {{ person.occupation }} and enjoys {{ person.hobbies }} <br>
+{% endfor %}
+
+{% for person in site.data.people %}
+  {{ person.name }} has the following signs: {{ person.signs }}
 {% endfor %}
 
 {% for file in site.static_file %}

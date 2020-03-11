@@ -3,4 +3,9 @@
 
 - name: "Thomas Western"
   occupation: "Doctor"
-  
+
+- name: Heart attack
+  signs: chest pain, shortness of breath, arm pain.
+
+- name: Brain disease
+  signs: headaches, loss of conciousness.
